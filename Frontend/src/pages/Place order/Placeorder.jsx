@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import './Placeorder.css';
 const Placeorder = () => {
   return (
@@ -15,6 +16,14 @@ const Placeorder = () => {
     <div className="palce-order-right"></div>
    </form>
 
+=======
+import './Placeorder.css'
+const Placeorder = () => {
+  return (
+    <div>
+    
+    </div>
+>>>>>>> c450967 (Initial Commit)
   )
 }
 

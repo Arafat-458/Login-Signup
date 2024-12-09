@@ -6,7 +6,11 @@ class ExploreMenu extends Component {
   constructor(props) {
     super(props);
     this.state = {
+<<<<<<< HEAD
       category: props.category || 'All', 
+=======
+      category: props.category || 'All', // Set default category or use prop
+>>>>>>> c450967 (Initial Commit)
     };
   }
 

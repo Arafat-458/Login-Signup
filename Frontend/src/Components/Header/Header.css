@@ -1,11 +1,18 @@
 .header{
+<<<<<<< HEAD
     height: 35vw;
     margin: 30px auto;
     background: url('/header_img.png') no-repeat;
+=======
+    height: 34vw;
+    margin: 30px auto ;
+    background: url('/header_img.png')no-repeat;
+>>>>>>> c450967 (Initial Commit)
     background-size: contain;
     position: relative;
 }
 .header-contents{
+<<<<<<< HEAD
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -14,20 +21,39 @@
     max-width: 50%;
     bottom: 10%;
     left:6vw;
+=======
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width:50%;
+    bottom: 10%;
+    left: 6vw;
+>>>>>>> c450967 (Initial Commit)
     animation: fadeIn 5s;
 }
 .header-contents h2{
     font-weight: 500;
+<<<<<<< HEAD
     color: white;
     font-size: max(5vw,22px);
 }
 .header-contents p{
     color: antiquewhite;
+=======
+    color: whitesmoke;
+    font-size: max(4.5vw,22px);
+}
+.header-contents p{
+    color:antiquewhite;
+>>>>>>> c450967 (Initial Commit)
     font-size: 1vw;
 }
 .header-contents button{
     border: none;
     color: #747474;
+<<<<<<< HEAD
     font-weight: 600;
     padding: 1vw 2.5vw;
     background-color: azure;
@@ -55,3 +81,11 @@
 }
 
 
+=======
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: aliceblue;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+}
+>>>>>>> c450967 (Initial Commit)

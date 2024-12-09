@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useContext } from 'react'
 import './Cart.css';
 import { StoreContext } from '../../Context/StoreContext';
@@ -76,8 +77,21 @@ const Cart = () => {
         </div>
       </div>
      
+=======
+import React from 'react'
+import './Cart.css'
+const Cart = () => {
+  return (
+    <div>
+        
+
+>>>>>>> c450967 (Initial Commit)
     </div>
   )
 }
 
+<<<<<<< HEAD
 export default Cart
+=======
+export default Cart
+>>>>>>> c450967 (Initial Commit)

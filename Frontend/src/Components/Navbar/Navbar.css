@@ -10,13 +10,20 @@
 .navbar-menu{
     display: flex;
     list-style: none;
+<<<<<<< HEAD
     gap:20px;
     color: #494949;
     font-size: 20px;
+=======
+    gap: 20px;
+    color: #495549;
+    font-size: 18px;
+>>>>>>> c450967 (Initial Commit)
 }
 .navbar-right{
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     gap: 50px;
 }
 .navbar button{
@@ -24,18 +31,35 @@
     font-size: 16px;
     color: blue;
     border: 1px solid black;
+=======
+    gap: 40px;
+}
+.navbar button{
+    background: transparent;
+    font-size: 16px;
+    color: blue;
+    border: 1px solid turquoise;
+>>>>>>> c450967 (Initial Commit)
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.5s;
 }
 .navbar button:hover{
+<<<<<<< HEAD
     background-color: aliceblue;
 }
 .navbar .active{
     padding-bottom: 3px;
     border-bottom: 2px solid #49557e;
     
+=======
+    background-color: aqua;
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+>>>>>>> c450967 (Initial Commit)
 }
 .navbar li{
     cursor: pointer;
@@ -44,6 +68,7 @@
     position: relative;
 }
 .navbar-search-icon .dot{
+<<<<<<< HEAD
     position: absolute;
     min-width: 10px;
     min-height: 10px;
@@ -101,3 +126,13 @@
 
 
 
+=======
+    position:absolute;
+    min-width: 14px;
+    min-height: 14px;
+    background-color: orangered;
+    border-radius: 7px;
+    top: -8px;
+    right: -8px;
+}
+>>>>>>> c450967 (Initial Commit)
